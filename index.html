@@ -5,12 +5,20 @@
   <title>First HTML PAGE</title>
   <style>
   h1{color: #a6a816}
-  </style>
+  .portfolio-return { display: flex; justify-content: center; padding: 32px 16px 12px; }
+.back-to-projects { display: inline-block; padding: 14px 26px; border: 2px solid blue; border-radius: 8px; background: pink; color: black; box-shadow: 5px 5px 0 black; font: bold 16px Arial, sans-serif; text-decoration: none; text-align: center; transition: transform .2s ease, box-shadow .2s ease; }
+.back-to-projects:hover { transform: translate(-2px, -2px); box-shadow: 7px 7px 0 black; }
+.back-to-projects:active { transform: translate(3px, 3px); box-shadow: 2px 2px 0 black; }
+.back-to-projects:focus-visible { outline: 3px solid blue; outline-offset: 5px; }
+</style>
 </head>
 <body>
   <h1> Name:Godin,Dan Estella<br>
     Year level: 2nd Year 2025-2026 <br> Program : BSIT <br>
     Section : 21010 <br>Subject : ITE1-WEBFUNDAMENTALS<br> Subject Teacher : Ms.Marifel J.Laynesa
   </h1>
+  <div class="portfolio-return">
+    <a class="back-to-projects" href="https://godindan.github.io/ProjectITE/#projects" target="_self">Back to My Projects</a>
+  </div>
 </body>
 </html>
